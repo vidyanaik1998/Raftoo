@@ -20,3 +20,11 @@ body{
 :where(.css-dev-only-do-not-override-26rdvq).ant-form input[type="file"]{
     @apply !text-white;  
 }
+:where(.css-26rdvq).ant-form-item .ant-form-item-label >label{
+    @apply !text-white font-bold;
+
+}
+:where(.css-26rdvq).ant-form input[type="file"]{
+    @apply !text-white;  
+
+}

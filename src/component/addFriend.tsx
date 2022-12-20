@@ -19,7 +19,9 @@ const AddFriend: React.FC<Props> = ({
     };
 
     return (
-        <div className='  grid grid-cols-4 gap-4'>
+      <>
+      <h3 className=' text-white text-[22px] text-start pb-6'>You may know</h3>
+        <div className='  grid grid-cols-3 gap-4'>
             {candidates?.profile.map((item: any, index: number) => {
                 return (
                     <Radio.Group onChange={() => onChange(item)} value={value}>
@@ -39,7 +41,7 @@ const AddFriend: React.FC<Props> = ({
                     </Radio.Group>
                 );
             })}
-        </div>
+        </div></>
     );
 }
 
