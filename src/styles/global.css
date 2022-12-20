@@ -28,3 +28,9 @@ body{
     @apply !text-white;  
 
 }
+:where(.css-26rdvq).ant-form-item .ant-form-item-explain-error{
+    @apply !text-left;
+}
+.App {
+   @apply text-center;
+  }

@@ -85,12 +85,14 @@ function AddProfile() {
                             name="phone"
                             rules={[
                                 {
+                                    max:10 ,
+                                    min:10 ,
                                     required: true,
-                                    message: 'Please input your phone number!',
+                                    message: 'Please enter valid  phone number!',
                                 },
                             ]}
                         >
-                            <Input />
+                            <Input type="number" />
                         </Form.Item>
                         <Form.Item
                             label="Upload image"
