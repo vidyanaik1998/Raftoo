@@ -1,0 +1,22 @@
+body{
+    background: rgb(19, 27, 44);
+    @apply !text-white
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-radio-wrapper .ant-radio-inner{  
+     @apply hidden;
+}
+:where(.css-dev-only-do-not-override-26rdvq).ant-form-item .ant-form-item-label{
+    @apply !text-left;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-alert-success{
+    @apply !absolute top-[20px] left-[45%] !bg-white;
+}
+
+:where(.css-dev-only-do-not-override-26rdvq).ant-form-item .ant-form-item-label >label{
+    @apply !text-white font-bold;
+}
+:where(.css-dev-only-do-not-override-26rdvq).ant-form input[type="file"]{
+    @apply !text-white;  
+}
